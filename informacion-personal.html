@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información Personal - Alionka Jamyleth</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Comic Neue', sans-serif;
+            background-color: #FAE8E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FAE8E0;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+        .logo-title img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .logo-title a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .header-title {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header-subtitle {
+            margin: 5px 0 0 0;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .personal-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+            width: 90%;
+        }
+        .personal-info div {
+            padding: 20px;
+        }
+        .personal-info img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .personal-info h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+        .personal-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo.png" alt="Logo">
+            <a href="index.html">ALIONKA CANAHUIRE</a>
+        </div>
+        <h1 class="header-title">INFORMACIÓN PERSONAL</h1>
+        <h2 class="header-subtitle">DATOS PERSONALES</h2>
+    </header>
+    <main>
+        <section class="personal-info">
+            <div>
+                <img src="nombre.png" alt="Nombre Completo">
+                <h3>NOMBRE COMPLETO</h3>
+                <p>Alionka Jamyleth Canahuire Apaza</p>
+            </div>
+            <div>
+                <img src="edad.png" alt="Edad">
+                <h3>EDAD</h3>
+                <p>18 años</p>
+            </div>
+            <div>
+                <img src="nacionalidad.png" alt="Nacionalidad">
+                <h3>NACIONALIDAD</h3>
+                <p>Peruana</p>
+            </div>
+            <div>
+                <img src="signoz.png" alt="Signo Zodiacal">
+                <h3>SIGNO ZODIACAL</h3>
+                <p>Acuario</p>
+            </div>
+            <div>
+                <img src="sexo.png" alt="Sexo">
+                <h3>SEXO</h3>
+                <p>Femenino</p>
+            </div>
+            <div>
+                <img src="estado.png" alt="Estado Civil">
+                <h3>ESTADO CIVIL</h3>
+                <p>Soltera</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

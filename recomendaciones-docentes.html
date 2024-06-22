@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones Docentes - Alionka Jamyleth</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Comic Neue', sans-serif;
+            background-color: #FAE8E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FAE8E0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            left: 20px;
+        }
+        .logo-title img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .logo-title a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        header h1 {
+            font-size: 36px;
+            text-align: center;
+            margin: 0;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .recommendation-columns {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .recommendation-container {
+            background-color: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 20px; /* Add margin to separate the columns */
+        }
+        .recommendation-container:last-child {
+            margin-right: 0; /* Remove margin from the last container */
+        }
+        .recommendation-header {
+            width: 100%;
+            background-color: #B0E0E6;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            display: flex;
+            align-items: center;
+        }
+        .recommendation-header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .recommendation-header h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .recommendation-header p {
+            font-size: 14px;
+            margin: 0;
+            color: #555;
+        }
+        .recommendation-content {
+            width: 100%;
+            padding: 10px;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .recommendation-footer {
+            width: 100%;
+            background-color: #B0E0E6; /* Maintain the same color for Ernesto's recommendation */
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .recommendation-footer.pink {
+            background-color: #FFB6C1; /* Different color for Lelia's recommendation */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo.png" alt="Logo">
+            <a href="index.html">ALIONKA CANAHUIRE</a>
+        </div>
+        <h1>RECOMENDACIONES DOCENTES</h1>
+    </header>
+    <main>
+        <div class="recommendation-columns">
+            <div class="recommendation-container">
+                <div class="recommendation-header">
+                    <img src="ernesto.jpg" alt="Ernesto Cuadros">
+                    <div>
+                        <h2>EDUARDO TEJADA</h2>
+                        <p>General Manager, Sr Director of Google Core User Protection</p>
+                    </div>
+                </div>
+                <div class="recommendation-content">
+                    Ernesto y yo trabajamos juntos en la Universidad San Pablo (UCSP), y al mismo tiempo servimos en la Sociedad Peruana de Computación. Durante el tiempo que Ernesto dirigió la carrera de Ciencias de la Computación en la UCSP, la universidad se convirtió en una institución reconocida en Ciencias de la Computación en el Perú, con importantes aportes académicos. El diseño de la carrera tuvo una base sólida gracias a la experiencia que Ernesto tiene como parte de diferentes juntas educativas de renombre. Ernesto también ha sido un defensor y patrocinador de muchos estudiantes que ahora ocupan puestos prometedores en diferentes partes de la industria.
+                </div>
+                <div class="recommendation-footer">
+                    RECOMENDACIÓN SOBRE ERNESTO CUADROS, PROFESOR DE INTRODUCCIÓN A LA COMPUTACIÓN
+                </div>
+            </div>
+            <div class="recommendation-container">
+                <div class="recommendation-header" style="background-color: #FFC0CB;">
+                    <img src="lelia.jpg" alt="Lelia Rubina">
+                    <div>
+                        <h2>PEDRO PABLO BELLIDO</h2>
+                        <p>Gerente general en ANALYTIC</p>
+                    </div>
+                </div>
+                <div class="recommendation-content">
+                    Trabajar con Lelia fue extraordinario, ella recién había terminado el programa de entrenamiento del Interbank y ya se le notaba más hábil e inteligente que la mayoría del equipo. Su lucidez para las finanzas, altas capacidades analíticas y pensamiento crítico junto con su don de gente y empatía son difíciles de encontrar en un sector tan competitivo como el mundo financiero.
+                    Luego tuve el privilegio de trabajar con ella como docente en la universidad, donde ella me enseñó a mí cómo empezar en la vida universitaria, realmente un privilegio haber podido trabajar con ella y que ahora seamos amigos.
+                </div>
+                <div class="recommendation-footer pink">
+                    RECOMENDACIÓN SOBRE LELIA RUBINA, PROFESORA DE ANÁLISIS FINANCIERO
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
