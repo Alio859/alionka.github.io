@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Alionka Jamyleth</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Comic Neue', sans-serif;
+            background-color: #FAE8E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FAE8E0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+        }
+        .logo-title img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .logo-title a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+            position: relative;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 0 10px;
+        }
+        nav ul li::after {
+            content: '|';
+            margin-left: 10px;
+            color: #000;
+            position: absolute;
+            right: -10px;
+        }
+        nav ul li:last-child::after {
+            content: '';
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            background-color: #FAE8E0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .content {
+            margin-left: 20px;
+        }
+        .content h1 {
+            font-size: 36px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .more-info {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #FFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .more-info:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo.png" alt="Logo">
+            <a href="index.html">ALIONKA CANAHUIRE</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="informacion-personal.html">Información personal</a></li>
+                <li><a href="estudios.html">Estudios</a></li>
+                <li><a href="cursos-y-profesores.html">Cursos y profesores</a></li>
+                <li><a href="recomendaciones-docentes.html">Recomendaciones docentes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <div class="image">
+                <img src="image.png" alt="Ilustración de Alionka">
+            </div>
+            <div class="content">
+                <h1>ACERCA DE MÍ...</h1>
+                <p>Hola, soy Alionka Jamyleth. Me considero una persona apasionada, curiosa y optimista. Siempre busco aprender cosas nuevas y superar los desafíos con una actitud positiva.</p>
+                <a href="mas-info.html" class="more-info">MÁS INFO.</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
